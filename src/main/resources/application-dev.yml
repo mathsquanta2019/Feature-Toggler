@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
+server:
+  port: 9090
+togglz:
+  features:
+    wal_2014_promo:
+      enabled: true
+  console:
+    secured: false
